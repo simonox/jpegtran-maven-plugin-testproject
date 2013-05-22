@@ -4,7 +4,7 @@
 	<groupId>test-build</groupId>
 	<artifactId>build</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
-	<name>com.holi.test</name>
+	<name>de.holisticon.jpegtrantest</name>
 	<packaging>war</packaging>
 	<profiles>
 		<profile>
@@ -14,7 +14,6 @@
 			</activation>
 			<build>
 				<plugins>
-				    <!-- 
 			        <plugin>
 					        <groupId>de.kabambo</groupId>
 					        <artifactId>maven-optipng-plugin</artifactId>
@@ -32,7 +31,6 @@
 					            </pngDirectories>
 					        </configuration>
 					</plugin>
-				     -->
 					<plugin>
 					        <groupId>de.holisticon</groupId>
 					        <artifactId>jpegtran-maven-plugin</artifactId>
