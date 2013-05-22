@@ -47,6 +47,7 @@
 					        <configuration>
 					            <jpegDirectories>
 					                <jpegDirectory>${basedir}/src/main/webapp/img/JustinMezzel</jpegDirectory>
+					                <jpegDirectory>${basedir}/src/main/webapp/img/OliverOchs</jpegDirectory>
 					            </jpegDirectories>
 					        </configuration>
 					</plugin>
